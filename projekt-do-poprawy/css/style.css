@@ -1,0 +1,21 @@
+body {
+    margin: 0px;
+}
+
+nav#menu {
+
+    text-align: center;
+    background-color: black;
+    font: Lato, Sans Serif;
+    font-size: 24pt;
+    color: white;
+}
+nav#menu > ul >li.menu-item {
+    display: inline;
+}
+
+#header {
+    position: relative;
+    text-align: center;
+    font: Lato, Sans Serif;
+}

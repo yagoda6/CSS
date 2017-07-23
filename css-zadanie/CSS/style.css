@@ -1,0 +1,67 @@
+body {
+ background-color: blueviolet;   
+
+}
+
+p {
+    color: aqua;
+    
+}
+
+#paragraf {
+    color: coral;
+    
+}
+
+/*klasa paragrafu*/
+.klasa paragrafu {
+    
+    color: bisque;
+    
+}
+
+/*łączenie selektorów*/
+
+a, span, div {
+    color: crimson;
+}
+
+
+/*selektor bezpośredniego potomnego*/
+
+li > a {
+    color:blue;
+}
+
+/*selektor elementu potomnego*/
+
+div a {
+    color: darkgrey;
+}
+
+/*selektor bliskiego rodzeństwa*/
+h2 + h3 {
+    
+    color: darkseagreen;
+}
+
+/*selektor rodzeństwa*/
+h4 ~ p {
+    color: greenyellow;
+    background-color: black;
+}
+
+/*selektor wykluczający*/
+#lista-agnieszki > li:not(.ostatni) {
+    color: pink;
+}
+
+/*selektor kolejnego elementu potomnego*/
+ul#lista-karoliny > ol {
+    background-color: blue;
+    color: darkblue;
+    border-bottom: 1px solid black;
+}
+ul#lista-karoliny > ol:nth-child(2) {
+    color:red;
+}
